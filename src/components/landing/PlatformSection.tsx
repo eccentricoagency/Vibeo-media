@@ -31,8 +31,14 @@ export function PlatformSection() {
               rel="noopener noreferrer"
               className="group mt-4 inline-flex items-center gap-3 rounded-full bg-[#17121F] py-1.5 pl-5 pr-1.5 transition-all hover:bg-[#2B2140] hover:shadow-[0_8px_24px_-10px_#7B2CBF66]"
             >
-              <span className="text-xs font-bold uppercase tracking-[0.14em] text-white">
-                Explore Vibeoo
+              <span className="flex items-center gap-1.5 text-xs font-bold uppercase leading-none tracking-[0.14em] text-white">
+                Explore
+                <img
+                  src="/vibeo-studio-logo-bianco-1200.png"
+                  alt="Vibeo Studio"
+                  className="-mt-0.5 block w-auto shrink-0 object-contain"
+                  style={{ height: 15 }}
+                />
               </span>
               <span className="grid h-8 w-8 shrink-0 place-items-center rounded-full bg-[#C77DF0] text-[#17121F] transition-transform group-hover:rotate-45">
                 <ArrowUpRight className="h-4 w-4" />
