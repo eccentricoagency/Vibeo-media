@@ -108,7 +108,7 @@ function HeroMock() {
       </div>
 
       {/* Floating: KPI card — top-right, spills outside */}
-      <div className="absolute right-2 top-[14%] hidden w-[160px] rotate-[2deg] md:block rounded-xl border border-border bg-card p-3.5 sm:w-[180px] sm:p-4 md:right-[-32px] md:top-[18%] md:shadow-lift">
+      <div className="absolute right-2 top-[14%] hidden w-[160px] rotate-[2deg] md:block rounded-xl border border-border bg-card p-3.5 sm:w-[180px] sm:p-4 md:right-[-64px] md:top-[18%] md:shadow-lift">
         <div className="text-[10px] uppercase tracking-wider text-muted-foreground">
           Earnings · 30d
         </div>

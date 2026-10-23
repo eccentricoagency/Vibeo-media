@@ -18,12 +18,19 @@ export function Logo({
     <span className={cn("inline-flex items-center gap-2.5", className)}>
       <span
         className={cn(
-          "grid shrink-0 place-items-center rounded-[0.55rem] bg-foreground font-bold leading-none tracking-[0.02em] text-background",
-          size === "sm" ? "h-7 w-7 text-[11px]" : "h-8 w-8 text-xs",
+          "grid shrink-0 place-items-center rounded-[0.55rem] bg-foreground",
+          size === "sm" ? "h-7 w-7" : "h-8 w-8",
         )}
         aria-hidden
       >
-        VM
+        <span
+          className={cn(
+            "grid place-items-center rounded-full bg-background font-bold leading-none tracking-[0.02em] text-foreground",
+            size === "sm" ? "h-[1.3rem] w-[1.3rem] text-[9px]" : "h-6 w-6 text-[10px]",
+          )}
+        >
+          VM
+        </span>
       </span>
       {wordmark && (
         <span
